@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .task-card {
+    @apply bg-white rounded-lg shadow-sm border border-gray-200 p-4 mb-3 hover:shadow-md transition-all duration-200;
+  }
+  
+  .kanban-column {
+    @apply bg-gray-50 rounded-lg p-4 min-h-[500px];
+  }
+  
+  .sidebar-nav-item {
+    @apply flex items-center space-x-3 px-3 py-2 rounded-lg transition-colors cursor-pointer text-gray-600 hover:bg-gray-100;
+  }
+  
+  .sidebar-nav-item.active {
+    @apply bg-blue-50 text-blue-700 font-medium;
+  }
+}
