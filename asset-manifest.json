@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Creative-Upaay-Dashboard/static/css/main.0f0e1ae6.css",
+    "main.js": "/Creative-Upaay-Dashboard/static/js/main.49bed6ca.js",
+    "index.html": "/Creative-Upaay-Dashboard/index.html",
+    "main.0f0e1ae6.css.map": "/Creative-Upaay-Dashboard/static/css/main.0f0e1ae6.css.map",
+    "main.49bed6ca.js.map": "/Creative-Upaay-Dashboard/static/js/main.49bed6ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f0e1ae6.css",
+    "static/js/main.49bed6ca.js"
+  ]
+}
