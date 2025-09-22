@@ -28,52 +28,44 @@ A powerful React-based project management dashboard featuring a kanban board wit
 
 ## Project Structure
 
-src/
-├─ components/
-│ ├─ Board/
-│ │ ├─ KanbanBoard.jsx
-│ │ ├─ Column.jsx
-│ │ └─ TaskCard.jsx
-│ ├─ Layout/
-│ │ └─ Sidebar.jsx
-│ ├─ UI/
-│ │ ├─ Avatar.jsx
-│ │ ├─ Badge.jsx
-│ │ ├─ ResetTasksButton.jsx
-│ │ └─ ThoughtsTimer.jsx
-├─ redux/
-│ ├─ slices/
-│ │ ├─ tasksSlice.js
-│ │ ├─ projectsSlice.js
-│ │ └─ filtersSlice.js
-├─ styles/
-│ └─ globals.css
-├─ App.js
-└─ index.js
-
-text
-
+    src/
+    ├─ components/
+    │ ├─ Board/
+    │ │ ├─ KanbanBoard.jsx
+    │ │ ├─ Column.jsx
+    │ │ └─ TaskCard.jsx
+    │ ├─ Layout/
+    │ │ └─ Sidebar.jsx
+    │ ├─ UI/
+    │ │ ├─ Avatar.jsx
+    │ │ ├─ Badge.jsx
+    │ │ ├─ ResetTasksButton.jsx
+    │ │ └─ ThoughtsTimer.jsx
+    ├─ redux/
+    │ ├─ slices/
+    │ │ ├─ tasksSlice.js
+    │ │ ├─ projectsSlice.js
+    │ │ └─ filtersSlice.js
+    ├─ styles/
+    │ └─ globals.css
+    ├─ App.js
+    └─ index.js
 ---
 
 ## Getting Started
 
 1. Clone the repo
 
-git clone <repo-url>
-
-text
+git clone <url>
 
 2. Install dependencies
 
 npm install
 
-text
-
 3. Run the development server
 
 npm start
 
-text
 
 4. Open `http://localhost:3000` in your browser.
 
